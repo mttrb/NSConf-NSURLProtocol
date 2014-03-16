@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BF74BA18D63B2C00FD23C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74B918D63B2C00FD23C8 /* Foundation.framework */; };
+		C9BF74BC18D63B2C00FD23C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74BB18D63B2C00FD23C8 /* CoreGraphics.framework */; };
+		C9BF74BE18D63B2C00FD23C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74BD18D63B2C00FD23C8 /* UIKit.framework */; };
+		C9BF74C418D63B2C00FD23C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BF74C218D63B2C00FD23C8 /* InfoPlist.strings */; };
+		C9BF74C618D63B2C00FD23C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BF74C518D63B2C00FD23C8 /* main.m */; };
+		C9BF74CC18D63B2C00FD23C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BF74CB18D63B2C00FD23C8 /* Images.xcassets */; };
+		C9BF74D318D63B2C00FD23C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74D218D63B2C00FD23C8 /* XCTest.framework */; };
+		C9BF74D418D63B2C00FD23C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74B918D63B2C00FD23C8 /* Foundation.framework */; };
+		C9BF74D518D63B2C00FD23C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF74BD18D63B2C00FD23C8 /* UIKit.framework */; };
+		C9BF74DD18D63B2C00FD23C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BF74DB18D63B2C00FD23C8 /* InfoPlist.strings */; };
+		C9BF74DF18D63B2C00FD23C8 /* RequestLoggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BF74DE18D63B2C00FD23C8 /* RequestLoggingTests.m */; };
+		C9BF74EE18D63B8600FD23C8 /* BLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BF74E918D63B8600FD23C8 /* BLCAppDelegate.m */; };
+		C9BF74EF18D63B8600FD23C8 /* BLCLoggingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BF74EB18D63B8600FD23C8 /* BLCLoggingURLProtocol.m */; };
+		C9BF74F018D63B8600FD23C8 /* BLCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BF74ED18D63B8600FD23C8 /* BLCWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BF74D618D63B2C00FD23C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BF74AE18D63B2B00FD23C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BF74B518D63B2C00FD23C8;
+			remoteInfo = RequestLogging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BF74B618D63B2C00FD23C8 /* RequestLogging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestLogging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BF74B918D63B2C00FD23C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9BF74BB18D63B2C00FD23C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9BF74BD18D63B2C00FD23C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9BF74C118D63B2C00FD23C8 /* RequestLogging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RequestLogging-Info.plist"; sourceTree = "<group>"; };
+		C9BF74C318D63B2C00FD23C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BF74C518D63B2C00FD23C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9BF74C718D63B2C00FD23C8 /* RequestLogging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RequestLogging-Prefix.pch"; sourceTree = "<group>"; };
+		C9BF74CB18D63B2C00FD23C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9BF74D118D63B2C00FD23C8 /* RequestLoggingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestLoggingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BF74D218D63B2C00FD23C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9BF74DA18D63B2C00FD23C8 /* RequestLoggingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RequestLoggingTests-Info.plist"; sourceTree = "<group>"; };
+		C9BF74DC18D63B2C00FD23C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BF74DE18D63B2C00FD23C8 /* RequestLoggingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestLoggingTests.m; sourceTree = "<group>"; };
+		C9BF74E818D63B8600FD23C8 /* BLCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCAppDelegate.h; sourceTree = "<group>"; };
+		C9BF74E918D63B8600FD23C8 /* BLCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCAppDelegate.m; sourceTree = "<group>"; };
+		C9BF74EA18D63B8600FD23C8 /* BLCLoggingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLoggingURLProtocol.h; sourceTree = "<group>"; };
+		C9BF74EB18D63B8600FD23C8 /* BLCLoggingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCLoggingURLProtocol.m; sourceTree = "<group>"; };
+		C9BF74EC18D63B8600FD23C8 /* BLCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCWebViewController.h; sourceTree = "<group>"; };
+		C9BF74ED18D63B8600FD23C8 /* BLCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BF74B318D63B2C00FD23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74BC18D63B2C00FD23C8 /* CoreGraphics.framework in Frameworks */,
+				C9BF74BE18D63B2C00FD23C8 /* UIKit.framework in Frameworks */,
+				C9BF74BA18D63B2C00FD23C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BF74CE18D63B2C00FD23C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74D318D63B2C00FD23C8 /* XCTest.framework in Frameworks */,
+				C9BF74D518D63B2C00FD23C8 /* UIKit.framework in Frameworks */,
+				C9BF74D418D63B2C00FD23C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BF74AD18D63B2B00FD23C8 = {
+			isa = PBXGroup;
+			children = (
+				C9BF74BF18D63B2C00FD23C8 /* RequestLogging */,
+				C9BF74D818D63B2C00FD23C8 /* RequestLoggingTests */,
+				C9BF74B818D63B2C00FD23C8 /* Frameworks */,
+				C9BF74B718D63B2C00FD23C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BF74B718D63B2C00FD23C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74B618D63B2C00FD23C8 /* RequestLogging.app */,
+				C9BF74D118D63B2C00FD23C8 /* RequestLoggingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BF74B818D63B2C00FD23C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74B918D63B2C00FD23C8 /* Foundation.framework */,
+				C9BF74BB18D63B2C00FD23C8 /* CoreGraphics.framework */,
+				C9BF74BD18D63B2C00FD23C8 /* UIKit.framework */,
+				C9BF74D218D63B2C00FD23C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9BF74BF18D63B2C00FD23C8 /* RequestLogging */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74E818D63B8600FD23C8 /* BLCAppDelegate.h */,
+				C9BF74E918D63B8600FD23C8 /* BLCAppDelegate.m */,
+				C9BF74EA18D63B8600FD23C8 /* BLCLoggingURLProtocol.h */,
+				C9BF74EB18D63B8600FD23C8 /* BLCLoggingURLProtocol.m */,
+				C9BF74EC18D63B8600FD23C8 /* BLCWebViewController.h */,
+				C9BF74ED18D63B8600FD23C8 /* BLCWebViewController.m */,
+				C9BF74CB18D63B2C00FD23C8 /* Images.xcassets */,
+				C9BF74C018D63B2C00FD23C8 /* Supporting Files */,
+			);
+			path = RequestLogging;
+			sourceTree = "<group>";
+		};
+		C9BF74C018D63B2C00FD23C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74C118D63B2C00FD23C8 /* RequestLogging-Info.plist */,
+				C9BF74C218D63B2C00FD23C8 /* InfoPlist.strings */,
+				C9BF74C518D63B2C00FD23C8 /* main.m */,
+				C9BF74C718D63B2C00FD23C8 /* RequestLogging-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BF74D818D63B2C00FD23C8 /* RequestLoggingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74DE18D63B2C00FD23C8 /* RequestLoggingTests.m */,
+				C9BF74D918D63B2C00FD23C8 /* Supporting Files */,
+			);
+			path = RequestLoggingTests;
+			sourceTree = "<group>";
+		};
+		C9BF74D918D63B2C00FD23C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF74DA18D63B2C00FD23C8 /* RequestLoggingTests-Info.plist */,
+				C9BF74DB18D63B2C00FD23C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BF74B518D63B2C00FD23C8 /* RequestLogging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BF74E218D63B2C00FD23C8 /* Build configuration list for PBXNativeTarget "RequestLogging" */;
+			buildPhases = (
+				C9BF74B218D63B2C00FD23C8 /* Sources */,
+				C9BF74B318D63B2C00FD23C8 /* Frameworks */,
+				C9BF74B418D63B2C00FD23C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RequestLogging;
+			productName = RequestLogging;
+			productReference = C9BF74B618D63B2C00FD23C8 /* RequestLogging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BF74D018D63B2C00FD23C8 /* RequestLoggingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BF74E518D63B2C00FD23C8 /* Build configuration list for PBXNativeTarget "RequestLoggingTests" */;
+			buildPhases = (
+				C9BF74CD18D63B2C00FD23C8 /* Sources */,
+				C9BF74CE18D63B2C00FD23C8 /* Frameworks */,
+				C9BF74CF18D63B2C00FD23C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BF74D718D63B2C00FD23C8 /* PBXTargetDependency */,
+			);
+			name = RequestLoggingTests;
+			productName = RequestLoggingTests;
+			productReference = C9BF74D118D63B2C00FD23C8 /* RequestLoggingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BF74AE18D63B2B00FD23C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BLC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Blended Cocoa";
+				TargetAttributes = {
+					C9BF74D018D63B2C00FD23C8 = {
+						TestTargetID = C9BF74B518D63B2C00FD23C8;
+					};
+				};
+			};
+			buildConfigurationList = C9BF74B118D63B2B00FD23C8 /* Build configuration list for PBXProject "RequestLogging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9BF74AD18D63B2B00FD23C8;
+			productRefGroup = C9BF74B718D63B2C00FD23C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BF74B518D63B2C00FD23C8 /* RequestLogging */,
+				C9BF74D018D63B2C00FD23C8 /* RequestLoggingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BF74B418D63B2C00FD23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74C418D63B2C00FD23C8 /* InfoPlist.strings in Resources */,
+				C9BF74CC18D63B2C00FD23C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BF74CF18D63B2C00FD23C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74DD18D63B2C00FD23C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BF74B218D63B2C00FD23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74EE18D63B8600FD23C8 /* BLCAppDelegate.m in Sources */,
+				C9BF74C618D63B2C00FD23C8 /* main.m in Sources */,
+				C9BF74EF18D63B8600FD23C8 /* BLCLoggingURLProtocol.m in Sources */,
+				C9BF74F018D63B8600FD23C8 /* BLCWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BF74CD18D63B2C00FD23C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF74DF18D63B2C00FD23C8 /* RequestLoggingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BF74D718D63B2C00FD23C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BF74B518D63B2C00FD23C8 /* RequestLogging */;
+			targetProxy = C9BF74D618D63B2C00FD23C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BF74C218D63B2C00FD23C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BF74C318D63B2C00FD23C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9BF74DB18D63B2C00FD23C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BF74DC18D63B2C00FD23C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BF74E018D63B2C00FD23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9BF74E118D63B2C00FD23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BF74E318D63B2C00FD23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RequestLogging/RequestLogging-Prefix.pch";
+				INFOPLIST_FILE = "RequestLogging/RequestLogging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9BF74E418D63B2C00FD23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RequestLogging/RequestLogging-Prefix.pch";
+				INFOPLIST_FILE = "RequestLogging/RequestLogging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9BF74E618D63B2C00FD23C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RequestLogging.app/RequestLogging";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RequestLogging/RequestLogging-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RequestLoggingTests/RequestLoggingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9BF74E718D63B2C00FD23C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RequestLogging.app/RequestLogging";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RequestLogging/RequestLogging-Prefix.pch";
+				INFOPLIST_FILE = "RequestLoggingTests/RequestLoggingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BF74B118D63B2B00FD23C8 /* Build configuration list for PBXProject "RequestLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BF74E018D63B2C00FD23C8 /* Debug */,
+				C9BF74E118D63B2C00FD23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BF74E218D63B2C00FD23C8 /* Build configuration list for PBXNativeTarget "RequestLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BF74E318D63B2C00FD23C8 /* Debug */,
+				C9BF74E418D63B2C00FD23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BF74E518D63B2C00FD23C8 /* Build configuration list for PBXNativeTarget "RequestLoggingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BF74E618D63B2C00FD23C8 /* Debug */,
+				C9BF74E718D63B2C00FD23C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BF74AE18D63B2B00FD23C8 /* Project object */;
+}

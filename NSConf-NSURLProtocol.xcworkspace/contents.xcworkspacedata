@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RegisteredClasses/RegisteredClasses.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RequestLogging/RequestLogging.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Hardcoded/Hardcoded.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RewriteHTML/RewriteHTML.xcodeproj">
+   </FileRef>
+</Workspace>
